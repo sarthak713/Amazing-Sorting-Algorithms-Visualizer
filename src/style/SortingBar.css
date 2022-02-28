@@ -1,0 +1,217 @@
+
+/* Mobiles */
+@media only screen and (max-width:480px){
+    .sortBar{
+        height: 12vw;
+        width: 100%;
+        display: flex;
+        background-color: rgb(167, 167, 167);
+    }
+    .sortButton{
+        position: relative;
+        width: 20%;
+        font-size: 4vw;
+        font-family: Trebuchet MS;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-align: center;
+        border: 0;
+        cursor:pointer;
+    }
+    .sortButton:active{
+        position: relative;
+        width: 20%;
+        font-size: 4vw;
+        font-family: Trebuchet MS;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-align: center;
+        border: 0;
+        cursor:pointer;
+        background-color: rgba(0,0,0,0.2);
+    }
+    #bsort{
+        background-color: rgb(252, 165, 95);
+        color: white;
+    }
+    #isort{
+        background-color: rgb(41, 187, 187);
+        color: white;
+    }
+    #msort{
+        background-color: rgb(248, 108, 108);
+        color: white;
+    }
+    #qsort{
+        background-color: rgb(77, 224, 180);
+        color: white;
+    }
+    #ssort{
+        background-color: rgb(115, 213, 252);
+        color: white;
+    }
+}
+/* Tablet 1 */
+@media only screen and (min-device-width: 481px) and (max-device-width: 767px){
+    .sortBar{
+        height: 8vw;
+        width: 100%;
+        display: flex;
+        background-color: rgb(167, 167, 167);
+    }
+    .sortButton{
+        position: relative;
+        width: 20%;
+        font-size: 3.2vw;
+        font-family: Trebuchet MS;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-align: center;
+        border: 0;
+        cursor:pointer;
+    }
+    .sortButton:active{
+        position: relative;
+        width: 20%;
+        font-size: 4vw;
+        font-family: Trebuchet MS;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-align: center;
+        border: 0;
+        cursor:pointer;
+        background-color: rgba(0,0,0,0.2);
+    }
+    #bsort{
+        background-color: rgb(252, 165, 95);
+        color: white;
+    }
+    #isort{
+        background-color: rgb(41, 187, 187);
+        color: white;
+    }
+    #msort{
+        background-color: rgb(248, 108, 108);
+        color: white;
+    }
+    #qsort{
+        background-color: rgb(77, 224, 180);
+        color: white;
+    }
+    #ssort{
+        background-color: rgb(115, 213, 252);
+        color: white;
+    }
+} 
+/* Tablet 2 */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .sortBar{
+        height: 6vw;
+        width: 100%;
+        display: flex;
+        background-color: rgb(167, 167, 167);
+    }
+    .sortButton{
+        position: relative;
+        width: 20%;
+        font-size: 2.7vw;
+        font-family: Trebuchet MS;
+        font-weight: 500;
+        text-align: center;
+        border: 0;
+        cursor:pointer;
+    }
+    .sortButton:active{
+        position: relative;
+        width: 20%;
+        font-size: 4vw;
+        font-family: Trebuchet MS;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-align: center;
+        border: 0;
+        cursor:pointer;
+        background-color: rgba(0,0,0,0.2);
+    }
+    #bsort{
+        background-color: rgb(252, 165, 95);
+        color: white;
+    }
+    #isort{
+        background-color: rgb(41, 187, 187);
+        color: white;
+    }
+    #msort{
+        background-color: rgb(248, 108, 108);
+        color: white;
+    }
+    #qsort{
+        background-color: rgb(77, 224, 180);
+        color: white;
+    }
+    #ssort{
+        background-color: rgb(115, 213, 252);
+        color: white;
+    }
+}
+/* Laptop / Desktop */
+@media only screen and (min-device-width: 1025px){
+    .sortBar{
+        height: 4.5vw;
+        width: 100%;
+        display: flex;
+        position: relative;
+        background-color: rgb(167, 167, 167);
+    }
+    .sortButton{
+        position: relative;
+        width: 20%;
+        font-size: 1.8vw;
+        font-family: Trebuchet MS;
+        font-weight: 550;
+        letter-spacing: 1px;
+        text-align: center;
+        border: 0;
+        cursor:pointer;
+        z-index: 1;
+    }
+    .sortButton::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.2);
+        z-index: -1;
+        transition: transform 0.15s ease-in;
+    }
+    .sortButton::after{
+        transform: scaleX(0);
+        transform-origin: right;
+    }
+    .sortButton:hover::after{
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+    #bsort{
+        background-color: rgb(252, 181, 122);
+        color: white;
+    }
+    #isort{
+        background-color: rgb(49, 184, 184);
+        color: white;
+    }
+    #msort{
+        background-color: rgb(248, 108, 108);
+        color: white;
+    }
+    #qsort{
+        background-color: rgb(106, 255, 210);
+        color: white;
+    }
+    #ssort{
+        background-color: rgb(118, 216, 255);
+        color: white;
+    }
+}

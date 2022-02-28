@@ -1,0 +1,547 @@
+
+/* Mobiles */
+@media only screen and (max-width:480px){
+    body{
+        height: 100%;
+        width: 100%;
+    }
+    .nav{
+        position: relative;
+        height:35vw;
+        width: 100%;
+        text-align: center;
+
+    }
+    .mainhead{
+        padding: 3px;
+        align-items: center;
+        height: 20vw;
+        width: 100%;
+        box-sizing: border-box;
+        text-overflow: ellipsis;
+        display: block;
+        background-color:rgb(124, 124, 252);
+    }
+    #head1{
+        font-family:"Brush Script MT", cursive;
+        color: rgb(124, 255, 157);
+        font-size: 5.5vw;
+        font-weight: 400 ;
+        letter-spacing: 1px;
+        transform: rotate(-90deg);
+        position: absolute;
+        top:1.2em;
+        left: -1em;
+    }
+    
+    #head2{
+        font-family:Trebuchet MS;
+        font-size: 8vw;
+        font-style: italic;
+        letter-spacing: 1px;
+        color: white;
+    }
+    #head3{
+        font-family:Trebuchet MS;
+        font-size: 8vw;
+        font-style: italic;
+        letter-spacing: 1px;
+        color: white;
+    }
+    .controls{
+        height: 15vw;
+        width: 100%;
+        box-sizing: border-box;
+        align-items: center;
+        display: flex;
+        background-color: rgb(160, 248, 138);
+        padding-left: 2vw;
+    }
+    .sizeBox,
+    .speedBox{
+        height: 8vw;
+        width: 22vw;
+        background-color: rgb(140, 140, 255);
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin: 7vw;
+        transition: all 0.2s;
+    }
+    .rangetext{
+        font-size: 3.35vw;
+        font-family: Trebuchet MS;
+        color: white;
+        font-weight: 700px;
+        letter-spacing: 1px;
+        text-align: center;
+        position: relative;
+        top: 1.5vw;
+    }
+    .sizeBox .field,
+    .speedBox .field{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top:3vw;
+    }
+    .sizeBox .field input,
+    .speedBox .field input{
+        -webkit-appearance: none;
+        height: 2vw;
+        width: 100%;
+        background: linear-gradient(to right, rgb(241, 241, 241),rgb(206, 154, 248));
+        border-radius: 2px;
+        outline: none;
+        border: none;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .sizeBox .field input::-webkit-slider-thumb, .speedBox .field input::-webkit-slider-thumb{
+        -webkit-appearance: none;
+        height: 3vw;
+        width: 3vw;
+        background: #7860fd;
+        border-radius: 40%;
+        cursor: pointer;
+    }
+    #a_generate{
+        height: 10vw;
+        width: 22vw;
+        box-sizing: border-box;
+        font-size: 3.35vw;
+        font-family: Trebuchet MS;
+        cursor: pointer;
+        text-align: center;
+        box-shadow: 5px 3px 5px rgba(87, 87, 87, 0.699);
+        background-color:rgb(140, 140, 255);
+        border: 2px solid rgba(103, 255, 141, 0.493);
+        color: white;
+        border-radius: 5px;
+        position: relative;
+        transition: all 0.2s;
+    }
+    #a_generate:active{
+        box-shadow: 3px 2px 4px rgba(87, 87, 87, 0.699);
+    }
+}
+/* Tablet 1 */
+@media only screen and (min-device-width: 481px) and (max-device-width: 767px){
+    body{
+        height: 100%;
+        width: 100%;
+    }
+    .nav{
+        position: relative;
+        height:28vw;
+        width: 100%;
+        text-align: center;
+    }
+    .mainhead{
+        padding: 2px;
+        align-items: center;
+        height: 17vw;
+        width: 100%;
+        box-sizing: border-box;
+        text-overflow: ellipsis;
+        display: block;
+        background-color:rgb(124, 124, 252);
+    }
+    #head1{
+        font-family:"Brush Script MT", cursive;
+        color: rgb(124, 255, 157);
+        font-size: 5.1vw;
+        font-weight: 400 ;
+        letter-spacing: 1px;
+        transform: rotate(-90deg);
+        position: absolute;
+        top:1em;
+        left: -0.8em;
+    }
+    
+    #head2{
+        font-family:Trebuchet MS;
+        font-size: 7.1vw;
+        font-style: italic;
+        letter-spacing: 1px;
+        color: white;
+    }
+    #head3{
+        font-family:Trebuchet MS;
+        font-size: 7.1vw;
+        font-style: italic;
+        letter-spacing: 1px;
+        color: white;
+    }
+    .controls{
+        height: 11vw;
+        width: 100%;
+        box-sizing: border-box;
+        align-items: center;
+        display: flex;
+        background-color: rgb(160, 248, 138);
+        padding-left: 3.2vw;
+    }
+    .sizeBox,
+    .speedBox{
+        height: 6vw;
+        width: 20.5vw;
+        background-color: rgb(140, 140, 255);
+        border-radius: 5px;
+        box-sizing: border-box;
+        margin: 7.5vw;
+        transition: all 0.2s;
+    }
+    .rangetext{
+        font-size: 3.1vw;
+        font-family: Trebuchet MS;
+        color: white;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-align: center;
+        position: relative;
+        top: 0.6vw;
+    }
+    .sizeBox .field,
+    .speedBox .field{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top:1.2vw;
+    }
+    .sizeBox .field input,
+    .speedBox .field input{
+        -webkit-appearance: none;
+        height: 1.6vw;
+        width: 100%;
+        background: linear-gradient(to right, rgb(241, 241, 241),rgb(206, 154, 248));
+        border-radius: 2px;
+        outline: none;
+        border: none;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .sizeBox .field input::-webkit-slider-thumb, .speedBox .field input::-webkit-slider-thumb{
+        -webkit-appearance: none;
+        height: 2.6vw;
+        width: 2.6vw;
+        background: #7860fd;
+        border-radius: 40%;
+        cursor: pointer;
+    }
+    #a_generate{
+        height: 6.7vw;
+        width: 20.5vw;
+        box-sizing: border-box;
+        font-size: 3.1vw;
+        font-weight: 400;
+        font-family: Trebuchet MS;
+        padding: 0 10px 0 10px;
+        cursor: pointer;
+        text-align: center;
+        box-shadow: 5px 3px 5px rgba(87, 87, 87, 0.699);
+        background-color:rgb(140, 140, 255);
+        border: 2px solid rgba(103, 255, 141, 0.493);
+        color: white;
+        border-radius: 5px;
+        position: relative;
+        transition: all 0.2s;
+    }
+    #a_generate:active{
+        box-shadow: 3px 2px 4px rgba(87, 87, 87, 0.699);
+    }
+}
+/* Tablet 2 */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    body{
+        height: 100%;
+        width: 100%;
+    }
+    .nav{
+        position: relative;
+        height:15vw;
+        width: 100%;
+        background:linear-gradient(to right,rgb(124, 124, 252),rgb(146, 255, 119));
+        display: flex;
+    }
+    .mainhead{
+        padding: 0.3vw;
+        padding-left: 6vw;
+        padding-top:2.5vw ;
+        align-items: center;
+        height: 20vw;
+        width: 50%;
+        box-sizing: border-box;
+        text-overflow: ellipsis;
+        display: block;
+        box-sizing: border-box;
+    }
+    #head1{
+        font-family:"Brush Script MT", cursive;
+        color: rgb(124, 255, 157);
+        font-size: 3.5vw;
+        font-weight: 400 ;
+        letter-spacing: 1px;
+        transform: rotate(-45deg);
+        position: absolute;
+        top:0.6em;
+        left: -0.4em;
+    }
+    
+    #head2{
+        font-family:Trebuchet MS;
+        font-size: 4vw;
+        font-style: italic;
+        letter-spacing: 1px;
+        color: white;
+    }
+    #head3{
+        font-family:Trebuchet MS;
+        font-size: 4vw;
+        font-style: italic;
+        letter-spacing: 1px;
+        color: white;
+    }
+    .controls{
+        height: 20vw;
+        width: 50%;
+        box-sizing: border-box;
+        align-items: center;
+        display: block;
+    }
+    .sizeBox,
+    .speedBox{
+        height: 3.5vw;
+        width: 13vw;
+        background-color: rgb(140, 140, 255);
+        border-radius: 5px;
+        box-sizing: border-box;
+        transition: all 0.2s;
+        position: absolute;
+    }
+    .sizeBox{
+        top: 8vw;
+        left: 65vw;
+    }
+    .speedBox{
+        top: 8vw;
+        left: 79.5vw;
+    }
+    .rangetext{
+        font-size: 2.1vw;
+        font-family: Trebuchet MS;
+        color: white;
+        font-weight: 700px;
+        letter-spacing: 1px;
+        text-align: center;
+        position: relative;
+    }
+    .sizeBox .field,
+    .speedBox .field{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top:0.6vw;
+    }
+    .sizeBox .field input,
+    .speedBox .field input{
+        -webkit-appearance: none;
+        height: 1vw;
+        width: 100%;
+        background: linear-gradient(to right, rgb(241, 241, 241),rgb(206, 154, 248));
+        border-radius: 2px;
+        outline: none;
+        border: none;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .sizeBox .field input::-webkit-slider-thumb, .speedBox .field input::-webkit-slider-thumb{
+        -webkit-appearance: none;
+        height: 1.8vw;
+        width: 1.8vw;
+        background: #7860fd;
+        border-radius: 40%;
+        cursor: pointer;
+    }
+    #a_generate{
+        height: 4vw;
+        width: 25vw;
+        position: absolute;
+        left: 16vw;
+        top: 2.7vw;
+        box-sizing: border-box;
+        font-size: 2.2vw;
+        font-family: Trebuchet MS;
+        padding: 0 10px 0 10px;
+        cursor: pointer;
+        text-align: center;
+        box-shadow: 5px 3px 5px rgba(87, 87, 87, 0.699);
+        background-color:rgb(140, 140, 255);
+        border: 2px solid rgba(103, 255, 141, 0.493);
+        color: white;
+        border-radius: 5px;
+        position: relative;
+        transition: all 0.2s;
+    }
+    #a_generate:active{
+        box-shadow: 3px 2px 4px rgba(87, 87, 87, 0.699);
+    }
+}
+/* Laptop / Desktop */
+@media only screen and (min-device-width: 1025px){
+    body{
+        height: 100%;
+        width: 100%;
+    }
+    .nav{
+        position: relative;
+        height: 8.5vw;
+        width: 100%;
+        background:linear-gradient(to right,rgb(124, 124, 252),rgb(146, 255, 119));
+        display: flex;
+    }
+    .mainhead{
+        height: 100%;
+        width: 40%;
+        box-sizing: border-box;
+    }
+    .mainhead:hover #head1{
+        font-family:"Brush Script MT", cursive;
+        color: rgb(0, 0, 0,0.3);
+        font-size: 6.8vw;
+        font-weight: 550 ;
+        position: absolute;
+        top:-0.5vw;left:6.7vw;
+        letter-spacing: 0.4vw;
+        transform: rotate(0deg);
+    }
+    #head1{
+        font-family:"Brush Script MT", cursive;
+        color: rgb(156, 255, 149);
+        font-size: 2.5vw;
+        font-weight: 550 ;
+        position: absolute;
+        top:0.9vw;left:-0.4vw;
+        letter-spacing: 1.5px;
+        transform: rotate(-30deg);
+        transition: all 0.3s;
+    }
+    
+    #head2{
+        font-family:Trebuchet MS;
+        font-weight: 700;
+        font-size: 2.5vw;
+        font-style: italic;
+        position: absolute;
+        top:1.7vw;left:5vw;
+        letter-spacing: 1px;
+        color: white;
+    }
+    #head3{
+        font-family:Trebuchet MS;
+        font-weight: 700;
+        font-size: 2.5vw;
+        font-style: italic;
+        position: absolute;
+        top:4.2vw;left:5vw;
+        letter-spacing: 1px;
+        color: white;
+    }
+    .controls{
+        height: 100%;
+        width: 60%;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        padding-left: 10vw;
+    }
+    .sizeBox,
+    .speedBox{
+        height: 3vw;
+        width: 12vw;
+        background-color: rgb(140, 140, 255);
+        border-radius: 5px;
+        position: relative;
+        box-sizing: border-box;
+        margin: 2.5vw;
+        transition: all 0.2s;
+    }
+    .sizeBox:hover,
+    .speedBox:hover{
+        background-color:rgb(128, 128, 252) ;
+    }
+    .rangetext{
+        font-size: 1.7vw;
+        font-family: Trebuchet MS;
+        color: white;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-align: center;
+        position: relative;
+        top:0.4vw;
+    }
+    .sizeBox .field,
+    .speedBox .field{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top:0.9vw;
+    }
+    .sizeBox .field input,
+    .speedBox .field input{
+        -webkit-appearance: none;
+        height: 0.8vw;
+        width: 100%;
+        background: linear-gradient(to right, rgb(241, 241, 241),rgb(216, 168, 255));
+        border-radius: 2px;
+        outline: none;
+        border: none;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .sizeBox .field input::-webkit-slider-thumb, .speedBox .field input::-webkit-slider-thumb{
+        -webkit-appearance: none;
+        height: 1.3vw;
+        width: 1.3vw;
+        background: #7860fd;
+        border-radius: 40%;
+        cursor: pointer;
+    }
+    .sizeBox .field input::-webkit-slider-thumb:active, .speedBox .field input::-webkit-slider-thumb:active{
+        -webkit-appearance: none;
+        height: 1.3vw;
+        width: 1.3vw;
+        background: #5436fd8f;
+        border-radius: 40%;
+        cursor: pointer;
+    }
+    #a_generate{
+        height: 3.6vw;
+        width: 12vw;
+        box-sizing: border-box;
+        font-size: 1.7vw;
+        font-family: Trebuchet MS;
+        cursor: pointer;
+        text-align: center;
+        box-shadow: 5px 3px 5px rgba(87, 87, 87, 0.699);
+        background-color:rgb(140, 140, 255);
+        border: 2px solid rgba(103, 255, 141, 0.493);
+        color: white;
+        border-radius: 5px;
+        position: relative;
+        transition: all 0.2s;
+    }
+    #a_generate:hover{
+        background-color: rgb(128, 128, 252);
+    }
+    #a_generate:active{
+        box-shadow: 3px 2px 4px rgba(87, 87, 87, 0.699);
+    }
+}

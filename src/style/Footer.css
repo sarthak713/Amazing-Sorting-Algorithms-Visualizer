@@ -1,0 +1,219 @@
+
+/* Mobiles */
+@media only screen and (max-width:480px){
+    .footer{
+        background: linear-gradient(to right, rgba(156, 43, 167, 0.300),rgba(27, 111, 160, 0.300) );
+        height: 20vw;
+    }
+    .namebox{
+        text-align: center;
+        font-size: 4.5vw;
+        font-family: 'Trebuchet MS';
+        letter-spacing: 0.5px;
+    }
+    .made{
+        font-size:3.2vw;
+    }
+    
+    .social{
+        height: 2vw;
+        width: 100%;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    .linkedin,
+    .github,
+    .instagram
+    {
+        position: relative;
+        margin: 1.2vw;
+        cursor: pointer;
+        font-size: 3vw;
+    }
+    
+    a:link{
+        color: black;
+    }
+    a:visited{
+        color: black;
+    }
+    a:hover{
+        color:black;
+    }
+    a:active {
+        color: black;
+    }
+}
+/* Tablet 1 */
+@media only screen and (min-device-width: 481px) and (max-device-width: 767px){
+    .footer{
+        background: linear-gradient(to right, rgba(156, 43, 167, 0.300),rgba(27, 111, 160, 0.300) );
+        height: 16vw;
+    }
+    .namebox{
+        text-align: center;
+        font-size: 3.3vw;
+        font-family: 'Trebuchet MS';
+        letter-spacing: 0.5px;
+    }
+    .made{
+        font-size:2.3vw;
+    }
+    .line{
+        font-size: 2.5vw;
+    }
+    
+    .social{
+        height: 2vw;
+        width: 100%;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    .linkedin,
+    .github,
+    .instagram
+    {
+        position: relative;
+        margin: 1vw;
+        cursor: pointer;
+        font-size: 2.3vw;
+    }
+    a:link{
+        color: black;
+    }
+    a:visited{
+        color: black;
+    }
+    a:hover{
+        color:black;
+    }
+    a:active {
+        color: black;
+    }
+}
+/* Tablet 2 */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .footer{
+        background: linear-gradient(to right, rgba(156, 43, 167, 0.300),rgba(27, 111, 160, 0.300) );
+        height: 14vw;
+    }
+    .namebox{
+        text-align: center;
+        font-size: 3vw;
+        font-family: 'Trebuchet MS';
+        letter-spacing: 0.5px;
+    }
+    .made{
+        font-size:2.2vw;
+    }
+    .line{
+        font-size: 2.5vw;
+    }
+    
+    .social{
+        height: 2vw;
+        width: 100%;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    .linkedin,
+    .github,
+    .instagram
+    {
+        position: relative;
+        margin: 1.5vw;
+        cursor: pointer;
+        font-size: 2vw;
+    }
+    a:link{
+        color: black;
+    }
+    a:visited{
+        color: black;
+    }
+    a:hover{
+        color:black;
+    }
+    a:active {
+        color: black;
+    }
+}
+/* Laptop / Desktop */
+@media only screen and (min-device-width: 1025px){
+    .footer{
+        background: linear-gradient(to right, rgba(156, 43, 167, 0.300),rgba(27, 111, 160, 0.300) );
+        height: 10vw;
+    }
+    .namebox{
+        text-align: center;
+        font-size: 2.2vw;
+        font-family: 'Trebuchet MS';
+        letter-spacing: 0.5px;
+    }
+    .made{
+        font-size:1.2vw;
+    }
+    .line{
+        font-size: 1.5vw;
+    }
+    
+    .social{
+        height: 2vw;
+        width: 100%;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        padding-top: 1.5vw;
+        padding-bottom: 1.5vw;
+    }
+    .linkedin,
+    .github,
+    .instagram
+    {
+        position: relative;
+        margin: 0.5vw;
+        cursor: pointer;
+        transition: all 0.3s;
+        font-size: 1.7vw;
+    }
+    
+    .footer:hover .linkedin,
+    .footer:hover .github,
+    .footer:hover .instagram
+    {
+        margin: 1vw;
+    }
+    
+    a{
+        transition: all 0.2s;
+    }
+    a:link{
+        color: black;
+    }
+    a:visited{
+        color: black;
+    }
+    a:hover{
+        color:rgba(105, 105, 105,0.9);
+    }
+    a:active {
+        color: white;
+    }
+}
