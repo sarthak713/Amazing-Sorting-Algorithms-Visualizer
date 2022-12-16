@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Amazing-Sorting-Algorithms-Visualizer/static/css/main.14232042.css",
+    "main.css": "/Amazing-Sorting-Algorithms-Visualizer/static/css/main.a712251b.css",
     "main.js": "/Amazing-Sorting-Algorithms-Visualizer/static/js/main.94cfa7c9.js",
     "static/js/787.4b40ee76.chunk.js": "/Amazing-Sorting-Algorithms-Visualizer/static/js/787.4b40ee76.chunk.js",
     "index.html": "/Amazing-Sorting-Algorithms-Visualizer/index.html",
-    "main.14232042.css.map": "/Amazing-Sorting-Algorithms-Visualizer/static/css/main.14232042.css.map",
+    "main.a712251b.css.map": "/Amazing-Sorting-Algorithms-Visualizer/static/css/main.a712251b.css.map",
     "main.94cfa7c9.js.map": "/Amazing-Sorting-Algorithms-Visualizer/static/js/main.94cfa7c9.js.map",
     "787.4b40ee76.chunk.js.map": "/Amazing-Sorting-Algorithms-Visualizer/static/js/787.4b40ee76.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.14232042.css",
+    "static/css/main.a712251b.css",
     "static/js/main.94cfa7c9.js"
   ]
 }
